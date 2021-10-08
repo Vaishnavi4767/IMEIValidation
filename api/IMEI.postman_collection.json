@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "56443996-bfc4-4cd1-9e72-23f8886661bd",
+		"name": "IMEI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "IMEIValidation URL",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"imeiNumber\" : 123456799512345\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/imeiValidation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"imeiValidation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
